@@ -12,7 +12,7 @@
             <div class="tracking-widest text-gray-400 text-sm font-semibold">MENU 1</div>
         </div>
 
-        <a class="flex items-center px-6 py-2 mt-2 text-gray-100 bg-green-400" href="../beranda">
+        <a class="flex items-center px-6 py-2 mt-2 text-gray-100 bg-green-400" href="../beranda/index.php">
             <i class='bx bxs-home'></i>
             <span class="mx-3">Beranda</span>
         </a>
@@ -26,7 +26,7 @@
         </a>
         <div class="text-left mt-2 w-4/5 mx-auto text-gray-500" id="submenu">
             <h1 class="cursor-pointer p-2 hover:bg-green-400 mt-1 hover:text-gray-100">
-                <a href="../ringkasan">
+                <a href="../ringkasan/index.php">
                     Ringkasan Harian
                 </a>
             </h1>
@@ -52,7 +52,7 @@
             <div class="tracking-widest text-gray-400 text-sm font-semibold">MENU 2</div>
         </div>
 
-        <a class="flex items-center px-6 py-2 mt-2 text-gray-500 hover:bg-green-400 hover:text-gray-100" href="../anggota">
+        <a class="flex items-center px-6 py-2 mt-2 text-gray-500 hover:bg-green-400 hover:text-gray-100" href="../anggota/index.php">
             <i class='bx bxs-group'></i>
             <span class="mx-3">Keanggotaan</span>
         </a>

@@ -29,7 +29,7 @@
             </form>
         </div>
 
-        <a class="mt-4 flex justify-center items-center" href="../beranda">
+        <a class="mt-4 flex justify-center items-center" href="../beranda/index.php">
             <button type="submit" class="block w-30 rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white">
                 Lihat Beranda Tanpa Login
             </button>
