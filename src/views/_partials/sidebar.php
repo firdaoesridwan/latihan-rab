@@ -18,33 +18,33 @@
         </a>
 
         <a class="flex items-center px-6 py-2 mt-4 text-gray-500 hover:bg-green-400 hover:text-gray-100" href="#" onclick="dropdown()">
-            <i class='bx bxs-hot'></i>
-            <span class="mx-3">Ringkasan</span>
+            <i class='bx bxs-spreadsheet'></i>
+            <span class="mx-3">Rencana Anggaran Biaya</span>
             <span class="text-sm rotate-180" id="arrow">
                 <i class='bx bx-chevron-down'></i>
             </span>
         </a>
         <div class="text-left mt-2 w-4/5 mx-auto text-gray-500" id="submenu">
             <h1 class="cursor-pointer p-2 hover:bg-green-400 mt-1 hover:text-gray-100">
-                <a href="../ringkasan/index.php">
-                    Ringkasan Harian
+                <a href="../rab/proyek.php">
+                    Proyek
                 </a>
             </h1>
             <h1 class="cursor-pointer p-2 hover:bg-green-400 mt-1 hover:text-gray-100">
-                <a href="">
-                    Ringkasan Bulanan
+                <a href="../rab/rincian.php">
+                    Rincian
+                </a>
+            </h1>
+            <h1 class="cursor-pointer p-2 hover:bg-green-400 mt-1 hover:text-gray-100">
+                <a href="../rab/uraian.php">
+                    Uraian
                 </a>
             </h1>
         </div>
 
-        <a class="flex items-center px-6 py-2 mt-4 text-gray-500 hover:bg-green-400 hover:text-gray-100" href="#">
+        <a class="flex items-center px-6 py-2 mt-4 text-gray-500 hover:bg-green-400 hover:text-gray-100" href="../laporan/index.php">
             <i class='bx bxs-book'></i>
             <span class="mx-3">Laporan</span>
-        </a>
-
-        <a class="flex items-center px-6 py-2 mt-4 text-gray-500 hover:bg-green-400 hover:text-gray-100" href="#">
-            <i class='bx bxs-wallet'></i>
-            <span class="mx-3">Saldo</span>
         </a>
 
         <!-- Menu 2 -->
@@ -52,15 +52,21 @@
             <div class="tracking-widest text-gray-400 text-sm font-semibold">MENU 2</div>
         </div>
 
-        <a class="flex items-center px-6 py-2 mt-2 text-gray-500 hover:bg-green-400 hover:text-gray-100" href="../anggota/index.php">
+        <a class="flex items-center px-6 py-2 mt-2 text-gray-500 hover:bg-green-400 hover:text-gray-100" href="../pengguna/index.php">
             <i class='bx bxs-group'></i>
-            <span class="mx-3">Keanggotaan</span>
+            <span class="mx-3">Manajemen Pengguna</span>
         </a>
 
-        <a class="flex items-center px-6 py-2 mt-4 text-gray-500 hover:bg-green-400 hover:text-gray-100" href="#">
-            <i class='bx bxs-dollar-circle'></i>
-            <span class="mx-3">Tabungan</span>
+        <!-- Menu 3 -->
+        <div class="ml-4 mt-8 flex flex-row items-center h-8">
+            <div class="tracking-widest text-gray-400 text-sm font-semibold">MENU 3</div>
+        </div>
+
+        <a class="flex items-center px-6 py-2 mt-2 text-gray-500 hover:bg-green-400 hover:text-gray-100" href="../login/logout.php">
+            <i class='bx bxs-log-in-circle'></i>
+            <span class="mx-3">Logout</span>
         </a>
+
     </nav>
 </div>
 <!-- End Sidebar -->
